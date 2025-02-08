@@ -1,0 +1,10 @@
+@keyframes transparent-green-transparent {
+    from {
+        background-color: var(--color-green-light);
+    }
+
+
+    to {
+        background-color: var(--color-white);
+    }
+}

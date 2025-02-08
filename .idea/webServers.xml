@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="56b6da1e-6182-438c-8a89-9c6f0786ce99" name="garden.na4u.ru" url="https://garden.na4u.ru">
+      <webServer id="56b6da1e-6182-438c-8a89-9c6f0786ce99" name="design.garden.na4u.ru" url="https://design.garden.na4u.ru">
         <fileTransfer rootFolder="/www" host="h28.netangels.ru" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />

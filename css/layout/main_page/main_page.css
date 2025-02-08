@@ -1,4 +1,5 @@
 h3.popular_items{
+    margin-top: var(--dm-16);
     margin-bottom: var(--dm-16);
     font-size: var(--font--big);
     font-weight: bold;
@@ -24,7 +25,7 @@ h3.popular_items{
 .gallery_category,
 .gallery_product,
 .gallery_products{
-    margin-bottom: var(--dm-16);
+    /*margin-bottom: var(--dm-16);*/
 }
 
 .gallery-category-item-title,

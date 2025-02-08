@@ -1,0 +1,7 @@
+.footer__section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    justify-items: center;
+}

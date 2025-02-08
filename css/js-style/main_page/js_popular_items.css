@@ -1,0 +1,39 @@
+.active-item{
+    /*background-color: var(--color-green-light);*/
+    animation-name: transparent-green-transparent;
+    animation-duration: 5s;
+
+    /*padding-bottom: 16px;*/
+    /*padding-bottom: 76px;*/
+    scroll-margin-bottom: 60px;
+
+}
+
+.current_item_background{
+    border: 1px solid var(--color-green-light);
+    background-color: var(--color-yellow);
+}
+
+.item_background{
+    background-color: #ffffff;
+}
+
+.item_background:active{
+    background-color: var(--color-yellow);
+}
+
+@media (hover: hover){
+
+    .choice_items>li:hover{
+        background-color: var(--color-yellow);
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .active-item{
+        scroll-margin-bottom: 0;
+    }
+
+}

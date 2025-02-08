@@ -1,0 +1,6 @@
+.footer__section {
+
+    grid-template-columns: auto;
+    grid-auto-columns: auto;
+
+}

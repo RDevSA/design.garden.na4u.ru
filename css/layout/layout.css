@@ -1,7 +1,5 @@
 @import "main.css";
 
-@import "footer/footer_mobile.css";
-
 @import "header/header_mobile.css";
 @import "header/header_desktop.css" screen and (min-width: 1024px);
 

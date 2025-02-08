@@ -19,7 +19,7 @@ header.header_desktop {
     display: flex;
     flex-grow: 1;
     align-items: center;
-    background-color: var(--color-header-top);
+    background-color: var(--color-green-light);
     border-radius: 5px 5px 0 0;
 }
 
@@ -71,7 +71,7 @@ header.header_desktop {
 }
 
 .item_menu:hover{
-    color: var(--color-fav);
+    color: var(--color-pink);
 }
 
 .item_menu[href$="favorite.php"] {
@@ -109,7 +109,7 @@ header.header_desktop {
 
 .num-products{
     padding: 0 4px;
-    background-color: var(--color-fav);
+    background-color: var(--color-pink);
     font-size: 12px;
     font-weight: bolder;
     text-align: center;

@@ -25,18 +25,16 @@ time, mark, audio, video {
 
 body{
     font-family: "PT Sans Caption", serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
+
 input{
     outline: none;
     border: none;
 }
 
 a{
+    display: block;
     text-decoration: none;
-    color: black;
     -webkit-tap-highlight-color: transparent;
 }
 

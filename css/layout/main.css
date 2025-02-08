@@ -1,4 +1,10 @@
-main{
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-wrapper{
     max-width: 1680px;
     margin-top: 178px;
     padding: 0 16px;
@@ -7,18 +13,18 @@ main{
     position: relative;
 }
 
-/*width >=768px*/
+/*width >=min-width-768px*/
 @media screen and (min-width: 768px){
-    main{
-        margin-top: 137px;
+    .main-wrapper{
+        margin-top: 113px;
     }
 
 }
 
 /*width >=1024px*/
 @media screen and (min-width: 1024px){
-    main{
-        margin-top: 160px;
+    .main-wrapper{
+        margin-top: 128px;
         padding: 0 32px;
     }
 
@@ -26,7 +32,7 @@ main{
 
 /*width >=1680px*/
 @media screen and (min-width: 1680px){
-    main{
+    .main-wrapper{
         margin-left: auto;
         margin-right: auto;
         /*border: #FFB800 2px solid;*/

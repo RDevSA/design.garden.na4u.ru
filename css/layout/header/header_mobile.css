@@ -13,7 +13,7 @@
 .nav-top-mobile{
     display: flex;
     justify-content: space-between;
-    background-color: var(--color-header-top);
+    background-color: var(--color-green-light);
 }
 
 .nav-top-mobile .right{
@@ -44,7 +44,7 @@
 
 .num-products{
     padding: 0 4px;
-    background-color: var(--color-fav);
+    background-color: var(--color-pink);
     font-size: 12px;
     font-weight: bolder;
     text-align: center;
@@ -78,6 +78,8 @@
     justify-content: center;
     align-items: center;
     font-size: var(--font--std);
+    color: black;
+    font-weight: bold;
 }
 
 .nav-sub-mobile-item {
@@ -104,7 +106,7 @@
     border-radius: 10px;
 }
 
-/*width >=768px*/
+/*width >=min-width-768px*/
 @media screen and (min-width: 768px){
     #search:target{
         display: none;

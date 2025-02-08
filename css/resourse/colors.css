@@ -1,14 +1,15 @@
 :root{
-    --color-fav: #FF1493;
+    --color-pink: #FF1493;
     --color-basket: #22AC59;
-    --color-header-top: #4FC980;
+    --color-green-light: #4FC980;
 
     --color-nav-bottom-item: #37BB4C;
     --color-secondary: #696565;
+    --color-white: #ffffff;
     --color-delimiter: #D2CFCF;
 
 
-    --color-star-rating: #FFB800;
+    --color-yellow: #FFB800;
 
     --bg-nav-sub: linear-gradient(180deg, #4FC980 0%, #81E890 68.23%, #A3FD9B 100%);
 

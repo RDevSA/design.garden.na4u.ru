@@ -1,9 +1,6 @@
 @import "global/normalize.css";
 @import "global/reset.css";
 
-@import "js-style/js-catalog.css";
-@import "js-style/js-search.css";
-
 @import "layout/layout.css";
 
 @import "resourse/dimens.css";
@@ -12,6 +9,34 @@
 @import "widgets/gallery/gallery_mobile.css";
 @import "widgets/choice_popular_items.css";
 @import "widgets/new_in_catalog.css";
+
+@import "js-style/js-catalog.css";
+@import "js-style/js-search.css";
+@import "js-style/main_page/js_popular_items.css";
+
+@import "animation/keyframes.css";
+
+/*BEM methodology*/
+@import "/BEM/production/core.blocks/footer/footer.css";
+/*@import "/BEM/experiments/core.blocks/footer/footer.css";*/
+
+@import "/BEM/production/core.blocks/footer/__section/footer__section.css";
+@import "/BEM/production/core.blocks/footer/__item/footer__item.css";
+@import "/BEM/production/core.blocks/footer/__social-icons/footer__social-icons.css";
+@import "/BEM/production/core.blocks/footer/_margin-bottom/footer_margin-bottom.css";
+@import "/BEM/production/core.blocks/footer/__section/_margin/footer__section_margin.css";
+
+@import "/BEM/production/min-width-768px/footer/footer.css" (min-width: 768px);
+@import "/BEM/production/min-width-768px/footer/__section/footer__section.css" (min-width: 768px);
+@import "/BEM/production/min-width-768px/footer/__item/footer__item.css" (min-width: 768px);
+
+
+@import "/BEM/production/min-width-1024px/footer/_margin-bottom/footer_margin-bottom.css" (min-width: 1024px);
+
+
+/*helpers*/
+@import "/BEM/helpers/_flex/_flex.css";
+@import "/BEM/helpers/_padding.css";
 
 
 

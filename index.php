@@ -33,55 +33,60 @@
 <?php require "temp/header/header-mobile.html"; ?>
 
 
-<main>
+<section class="main-wrapper">
+    <main>
 
-    <h3 class="popular_items">Новинки в каталоге</h3>
-    <?php
-    require "temp/main_page/new_in_catalog.html";
-    ?>
+        <h3 class="popular_items">Новинки в каталоге</h3>
+        <?php
+        require "temp/main_page/new_in_catalog.html";
+        ?>
 
-    <h3 class="popular_items">Популярные категории семян</h3>
+        <h3 class="popular_items">Популярные категории семян</h3>
 
-    <!--BEGIN Slider popular gallery_category -->
-    <div class="gallery">
-        <div class="swiper gallery_products">
-            <div class="swiper-wrapper">
-                <?php
-                for ($i = 0; $i <= 10; $i++) {
-                    require "temp/main_page/gallery/gallery_popular_category.html";
-                }
-                ?>
+        <!--BEGIN Slider popular gallery_category -->
+        <div class="gallery">
+            <div class="swiper gallery_products">
+                <div class="swiper-wrapper">
+                    <?php
+                    for ($i = 0; $i <= 10; $i++) {
+                        require "temp/main_page/gallery/gallery_popular_category.html";
+                    }
+                    ?>
+                </div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-    </div>
-    <!--END Slider popular gallery_category-->
+        <!--END Slider popular gallery_category-->
 
-    <h3 class="popular_items">Популярные семена</h3>
+        <h3 class="popular_items">Популярные семена</h3>
+        <?php
+        for ($i = 0; $i < 4; $i++) {
+            require "temp/main_page/gallery_popular_product/section_popular_product.php";
+        }
+        ?>
+
+    </main>
+
     <?php
-    for ($i = 0; $i < 2; $i++) {
-        require "temp/main_page/gallery_popular_product/section_popular_product.php";
-    }
-
+    require "BEM/production/core.blocks/footer/footer.html";
     ?>
 
+</section>
 
-</main>
-
-<footer>
-
-</footer>
 
 <?php
 require "temp/main_page/nav_bottom.html";
 ?>
+
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 <script src="js/libs/swiper_settings.js"></script>
 <script src="js/btn_catalog_actions.js"></script>
 <script src="js/btn_search_mobile.js"></script>
+<script src="js/scroll_block.js"></script>
+
 
 </body>
 </html>

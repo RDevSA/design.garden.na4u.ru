@@ -22,6 +22,7 @@
     display: flex;
     column-gap: 12px;
     font-size: 14px;
+    background-color: #ffffff;
 }
 
 .gallery_product_img>img{
@@ -71,6 +72,7 @@
 .swiper-button-next,
 .swiper-button-prev{
     display: none;
+    z-index: 5;
 }
 /*Кнопки впред/назад*/
 
@@ -98,7 +100,7 @@
     .swiper-button-next,
     .swiper-button-prev{
         display: block;
-        color: var(--color-fav);
+        color: var(--color-pink);
     }
 
 }
